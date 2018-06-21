@@ -131,7 +131,10 @@ def _main():
     data["sha256"] = sha256.hexdigest()
     data["md5"] = md5.hexdigest()
 
-    template = Template(open("tools/release-announcement-template.txt").read())
+    template_path = os.path.join(
+        os.path.dirname(os.path.realpath(__file__)),
+        "release-announcement-template.txt")
+    template = Template(open(template_path).read())
     output = template.render(data=data)
 
     filename = "release-announcement-gerrit-%s.txt" % data["version"]
