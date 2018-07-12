@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "87cba9341e60a3fb3560fe36d97edca18376de146a39a8b7d32f71dd67fc8235"
+            "sha256": "fcc9c1b10e5be30f882b75a9028bd98b3c620556246bbc3d1cb24a22f07daa25"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.6"
+            "python_version": "3.7"
         },
         "sources": [
             {
@@ -53,10 +53,10 @@
         },
         "pbr": {
             "hashes": [
-                "sha256:3747c6f017f2dc099986c325239661948f9f5176f6880d9fdef164cb664cd665",
-                "sha256:a9c27eb8f0e24e786e544b2dbaedb729c9d8546342b5a6818d8eda098ad4340d"
+                "sha256:4f2b11d95917af76e936811be8361b2b19616e5ef3b55956a429ec7864378e0c",
+                "sha256:e0f23b61ec42473723b2fec2f33fb12558ff221ee551962f01dd4de9053c2055"
             ],
-            "version": "==4.0.4"
+            "version": "==4.1.0"
         },
         "pygerrit2": {
             "hashes": [
