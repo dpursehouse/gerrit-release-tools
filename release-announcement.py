@@ -73,7 +73,7 @@ class Version:
         parts = version.split('.')
         if len(parts) > 2:
             self.major = ".".join(parts[:2])
-            self.patch = version
+            self.patch = version.replace(".", "")
         else:
             self.major = version
             self.patch = None
